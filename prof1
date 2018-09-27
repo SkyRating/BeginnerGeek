@@ -43,9 +43,7 @@ for(int i=0; i<str; i++){
  printf("\n");
  }
 }
-
 array softsort(array A){
-
 for(int i=0; i<str; i++){
 for(int a=0; a<col-1; a++){
  for(int j=0; j<col-1; j++){
@@ -58,4 +56,16 @@ for(int a=0; a<col-1; a++){
 }
 }
 return A;
+}
+int main(void){
+array A;
+array B;
+A=softread();
+softprint(A);
+B=softsort(A);
+printf("\n");             //Programm body
+softprint(B);
+printf("\n");
+softaj(B);
+return 0;
 }
