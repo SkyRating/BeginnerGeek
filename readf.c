@@ -5,8 +5,8 @@ char b;
 char vowels[]={'A','a','E','e','I','i','O','o','U','u'};
 char cons[]={'B','b','C','c','D','d','F','f','G','g','H','h','J','j','K','k','L','l','M','m','N','n','P','p','Q','q','R','r','S','s','T','t','V','v','W','w','X','x','Y','y','Z','z'};
  FILE *file;
- file=fopen("Arr.c","rt");
- if((file=fopen("Arr.c","r"))==NULL){
+ file=fopen("everyfile","rt");
+ if((file=fopen("everyfile","r"))==NULL){
  perror("None");
  exit(0);
  }
