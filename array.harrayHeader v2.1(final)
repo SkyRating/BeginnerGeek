@@ -60,9 +60,3 @@ printf("Middle value=%1.2lf ", (mid/(A.col-1)) );
 printf("\n");
 }
 
-int main(void){
- arrayPrint(arrayCreate());
- arrayPrint(arraySort(Ars));
- arrayMult(arraySort(Ars));
- return 0;
- }
